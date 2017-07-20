@@ -10,6 +10,6 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '+'
-                'org.hamcrest:java-hamcrest:+'
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.0.0-M4',
+            'org.hamcrest:java-hamcrest:+'
 }
